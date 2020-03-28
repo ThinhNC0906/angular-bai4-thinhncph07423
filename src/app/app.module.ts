@@ -7,10 +7,11 @@ import { HelloComponent } from './hello.component';
 import { CategoryComponent } from './category/category.component';
 import { BrandsComponent } from './brands/brands.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { RecoComponent } from './reco/reco.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, CategoryComponent, BrandsComponent, ProductListComponent ],
+  declarations: [ AppComponent, HelloComponent, CategoryComponent, BrandsComponent, ProductListComponent, RecoComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
