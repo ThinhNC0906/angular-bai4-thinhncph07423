@@ -14,11 +14,13 @@ import { ServicesComponent } from './services/services.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { ProductService } from './services/product.service';
+import { ProductsComponent } from './products/products.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,HttpClientModule, AppRoutingModule ],
-  declarations: [ AppComponent, HelloComponent, CategoryComponent, BrandsComponent, ProductListComponent, RecoComponent, ServicesComponent, HomeComponent ],
+  declarations: [ AppComponent, HelloComponent, CategoryComponent, BrandsComponent, ProductListComponent, RecoComponent, ServicesComponent, HomeComponent, ProductsComponent, ProductDetailComponent ],
   bootstrap:    [ AppComponent ],
    providers: [ProductService]
 })
