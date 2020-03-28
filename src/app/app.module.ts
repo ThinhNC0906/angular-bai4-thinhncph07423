@@ -16,11 +16,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { ProductService } from './services/product.service';
 import { ProductsComponent } from './products/products.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,HttpClientModule, AppRoutingModule ],
-  declarations: [ AppComponent, HelloComponent, CategoryComponent, BrandsComponent, ProductListComponent, RecoComponent, ServicesComponent, HomeComponent, ProductsComponent, ProductDetailComponent ],
+  declarations: [ AppComponent, HelloComponent, CategoryComponent, BrandsComponent, ProductListComponent, RecoComponent, ServicesComponent, HomeComponent, ProductsComponent, ProductDetailComponent, MenuComponent ],
   bootstrap:    [ AppComponent ],
    providers: [ProductService]
 })

@@ -1,0 +1,36 @@
+<section class="product-section">
+		<div class="container">
+			<div class="back-link">
+				<a routerLink="/home"> &lt;&lt; Quay lại trang chủ</a>
+			</div>
+			<div class="row" *ngIf="product">
+				<div class="col-lg-6">
+					<div class="product-pic-zoom">
+						<img class="product-big-img" style="width: 542.5px; height: 542.5px;" src="{{product.img}}" alt="">
+					</div>
+				</div>
+				<div class="col-lg-6 product-details">
+					<h2 class="p-title">{{product.name}}</h2>
+					<h3 class="p-price">${{product.price}}</h3>
+					<h4 class="p-stock">Tình trạng: <span>Còn hàng</span></h4>
+					<div class="quantity">
+						<p>Số lượng</p>
+                        <div class="pro-qty"><input type="text" value="1"></div>
+                    </div>
+					<a href="#" class="site-btn">Art to cart</a>
+					<div id="accordion" class="accordion-area">
+						<div class="panel">
+							<div class="panel-header" id="headingOne">
+								<button class="panel-link active" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">Mô tả</button>
+							</div>
+							<div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+								<div class="panel-body">
+									<p>{{product.desc}}</p>								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
