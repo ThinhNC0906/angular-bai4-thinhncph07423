@@ -20,11 +20,12 @@ import { MenuComponent } from './menu/menu.component';
 import { SlideComponent } from './slide/slide.component';
 import { ProductManagerComponent } from './product-manager/product-manager.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { EditProductComponent } from './edit-product/edit-product.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,HttpClientModule, AppRoutingModule ],
-  declarations: [ AppComponent, HelloComponent, CategoryComponent, BrandsComponent, ProductListComponent, RecoComponent, ServicesComponent, HomeComponent, ProductsComponent, ProductDetailComponent, MenuComponent, SlideComponent, ProductManagerComponent, NotFoundComponent ],
+  declarations: [ AppComponent, HelloComponent, CategoryComponent, BrandsComponent, ProductListComponent, RecoComponent, ServicesComponent, HomeComponent, ProductsComponent, ProductDetailComponent, MenuComponent, SlideComponent, ProductManagerComponent, NotFoundComponent, EditProductComponent ],
   bootstrap:    [ AppComponent ],
    providers: [ProductService]
 })

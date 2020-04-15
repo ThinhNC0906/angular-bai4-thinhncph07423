@@ -18,6 +18,9 @@ export class ProductService {
   getProduct(id): Observable<Product>{
     return this.http.get<Product>(`${this.api}/Product/${id}`)
   }
+   updateProduct(product): Observable<Product>{
+    return this.http.put<Product>(`${this.api}/product/${product.id}`, product);
+  }
   removeProduct(id): Observable<Product>{
     return this.http.get<Product>(`${this.api}/Product/${id}`)
   }}
