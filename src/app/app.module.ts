@@ -7,21 +7,21 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 
-import { BrandsComponent } from './home/brands/brands.component';
-import { ProductListComponent } from './home/product-list/product-list.component';
-import { RecoComponent } from './home/reco/reco.component';
+import { BrandsComponent } from './brands/brands.component';
+import { ProductListComponent } from './product-list/product-list.component';
+import { RecoComponent } from './reco/reco.component';
 import { ServicesComponent } from './services/services.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { ProductService } from './services/product.service';
 import { ProductsComponent } from './products/products.component';
-import { ProductDetailComponent } from './admin/product-detail/product-detail.component';
-import { MenuComponent } from './home/menu/menu.component';
-import { SlideComponent } from './home/slide/slide.component';
-import { ProductManagerComponent } from './admin/product-manager/product-manager.component';
-import { NotFoundComponent } from './home/not-found/not-found.component';
-import { EditProductComponent } from './a/edit-product/edit-product.component';
-import { CategoryComponent } from './home/category/category.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { MenuComponent } from './menu/menu.component';
+import { SlideComponent } from './slide/slide.component';
+import { ProductManagerComponent } from './product-manager/product-manager.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { EditProductComponent } from './edit-product/edit-product.component';
+import { CategoryComponent } from './category/category.component';
 
 
 @NgModule({
